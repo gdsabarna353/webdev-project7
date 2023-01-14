@@ -17,6 +17,14 @@ body{
     background: rgb(43, 42, 42);
 }
 
+@media only screen and (max-width:600px){
+    .clock{
+        max-height: 300px;
+        max-width: 300px;
+        position: absolute;
+    }
+}
+
 .container{
     position: relative;
     background: rgb(43, 42, 42);
