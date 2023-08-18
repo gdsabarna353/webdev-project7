@@ -30,7 +30,7 @@ setInterval(()=>{
     let s = day.getSeconds();
 
     //converting 24 hour clock to 12 hour clock
-    let am = "AM";
+    var am = "AM";
     if(h>=12){
         h = h-12;
         am = "PM";
