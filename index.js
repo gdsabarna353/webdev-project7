@@ -30,11 +30,12 @@ setInterval(()=>{
     let s = day.getSeconds();
 
     //converting 24 hour clock to 12 hour clock
-    if(h>12)
+    let am = "AM";
+    if(h>=12){
         h = h-12;
+        am = "PM";
+    }
     
-    let am = (h>=12) ? "PM" : "AM";
-
     //add zero before single digit number
     h = (h<10) ? "0" + h : h;
     m = (m<10) ? "0" + m : m;
